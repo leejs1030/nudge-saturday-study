@@ -49,6 +49,7 @@ HDD, SSD는 블록 구조를 이용하는 저장장치이다.
 cpu에서는 메모리를 사용한다. db는 ssd 등에 저장된다.
 따라서 db 갱신을 위해서는 ssd->메모리->ssd의 과정을 거치게 된다. 이 때, 데이터베이스 버퍼라고 하는 메모리 영역을 이용하여 저장한다. 이를 13.5절에서 다룬다.
 <br><br>
-특정 열의 모든 값을 하께 저장하는 방식도 있다. 이를 열 지향 저장소(column-oriented storage)라 부르며, 13.6절에서 다룬다.
+특정 열의 모든 값을 함께 저장하는 방식도 있는데, 이는 분석 쿼리(aggregate function에 해당하는 것이라고 추정하고 있다 - [SQL Server 분석 함수](https://docs.microsoft.com/ko-kr/sql/t-sql/functions/analytic-functions-transact-sql?view=sql-server-ver16)는 aggregate function과 유사해 보인다.) 처리에 유용하다.
+이를 열 지향 저장소(column-oriented storage)라 부르며, 13.6절에서 다룬다.
 <br><br>
 메인 메모리 데이터 베이슬르 13.7절에서 다룬다.
