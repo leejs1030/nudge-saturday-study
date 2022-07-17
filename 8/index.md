@@ -2,6 +2,8 @@
 
 ## top level await
 async문 밖에서도 await을 쓸 수 있다.  -> node 16.15.0(2022-04-26 출시)에서 사용 가능함을 확인하였다.
+![image](https://user-images.githubusercontent.com/102134003/179396250-f228fdcd-bd89-4ce9-9372-86bcf2133200.png)
+
 
 
 ## error cause
